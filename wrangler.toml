@@ -1,0 +1,9 @@
+name = "andyyuuk-personal"
+compatibility_date = "2026-03-11"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "andyyuuk-personal-db"
+database_id = "3bfa31ff-a6da-421a-97d7-d5616020d047"
+migrations_dir = "migrations"
