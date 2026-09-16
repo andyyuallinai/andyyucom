@@ -6,6 +6,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { translateContent } from '../services/aiService';
 import { articleContentZh, articleContentEn } from '../data/articleContent';
 import { articleList } from '../data/articles';
+import { getArticleStrings } from '../data/articlesI18n';
 
 const ArticleDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -108,7 +109,7 @@ const ArticleDetail: React.FC = () => {
           <div>
               <span className="block text-xs font-sans text-gray-400 uppercase tracking-widest mb-1">{t.articles.next}</span>
               <Link to={`/articles/${nextArticle.id}`} className="font-serif text-lg text-ink-black hover:underline decoration-1 underline-offset-4">
-                {nextArticle.title[language] ?? nextArticle.title.en}
+                {getArticleStrings(language, nextArticle.id).title}
               </Link>
           </div>
         </div>
