@@ -6,27 +6,6 @@ import { ExternalLink } from 'lucide-react';
 
 const projects: AIProject[] = [
   {
-    id: '1',
-    name: 'AdmitOS',
-    url: 'https://www.admitos.ai',
-    displayUrl: 'www.admitos.ai',
-    role: 'Founder / CEO',
-    description: `AdmitOS is the operating system for university applications & preparations.
-
-The platform **transforms** the traditional admissions consulting process into an AI-powered execution platform, combining AI agents, structured workflows, and expert human guidance.
-
-**Our mission** is to make the university application and preparation process transparent, structured, and accessible to every student worldwide. **AdmitOS aims** to become the global infrastructure layer for education admissions.
-
-By combining AI agents, data systems, and human expertise, the platform will power the entire lifecycle of academic applications:
-* **university admissions**
-* **postgraduate applications**
-* **international education pathways**
-
-**AdmitOS — The Operating System for University Applications and preparations.**
-*AI guidance when you need it.*
-*Human expertise when it matters.*`
-  },
-  {
     id: '2',
     name: 'A Drop Edu',
     url: 'https://www.adropedu.com',
