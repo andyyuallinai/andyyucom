@@ -108,12 +108,24 @@ export const projects: AIProject[] = [
     role: 'Founder / CEO',
     status: 'live',
     description: {
-      en: `META SOLUTION TECHNOLOGIES LTD operates under the trading name A Drop Edu, an education service platform based in London providing a range of education-related services including K-12 coding curriculum, academic development programmes, private school counselling, and international education projects.
+      en: `A London-based education service platform (operated by META SOLUTION TECHNOLOGIES LTD) serving K-12 students and families on the path to future-ready skills.
 
-The organisation works with schools, education providers and programme partners to deliver innovative education programmes such as coding courses, academic tutoring, and international summer camps designed to equip students with future-ready skills in areas such as algorithms, artificial intelligence, robotics, and digital technologies.`,
-      zh: `META SOLUTION TECHNOLOGIES LTD 以 A Drop Edu 为品牌运营，是一家位于伦敦的教育服务平台，提供 K-12 编程课程、学术发展项目、私立学校升学咨询及国际教育项目等多类教育服务。
+**The problem we solve.** Future-defining skills — algorithms, artificial intelligence, robotics, digital technologies — are largely absent from traditional classrooms, and families lack systematic, trustworthy support for school admissions and international education pathways.
 
-机构与学校、教育机构及项目合作伙伴协作，提供编程课程、学术辅导、国际夏令营等创新教育项目，帮助学生掌握算法、人工智能、机器人与数字技术等面向未来的技能。`,
+**Technology & strengths.** A proprietary K-12 coding curriculum and academic development programmes, spanning coding courses, academic tutoring, private school counselling, and international education projects — delivered through an established network of schools, education providers, and programme partners.
+
+**Methodology.** A "curriculum + programme + counselling" model: coding courses and academic tutoring build the foundations, experiential programmes such as international summer camps widen horizons, and counselling threads each student's individual pathway through it all.
+
+**Social value.** Helping students build future-ready skills and a global outlook from the K-12 stage, and giving families dependable guidance on their education journey.`,
+      zh: `位于伦敦的教育服务平台（META SOLUTION TECHNOLOGIES LTD 旗下品牌），服务 K-12 学生与家庭的未来技能之路。
+
+**我们解决的问题。** 算法、人工智能、机器人、数字技术这些定义未来的能力，在传统课堂中往往缺位；家庭在升学与国际教育路径上，也缺少系统、可信赖的专业支持。
+
+**技术与优势。** 自有 K-12 编程课程体系与学术发展项目，覆盖编程课程、学术辅导、私立学校升学咨询与国际教育项目，并与学校、教育机构及项目合作伙伴建立了稳定的协作网络。
+
+**方法论。** 以"课程 + 项目 + 咨询"组合交付：编程课程与学术辅导打好基础，国际夏令营等体验式项目拓宽视野，升学咨询则贯穿每个学生的个体路径规划。
+
+**社会价值。** 帮助学生在 K-12 阶段就建立面向未来的技能与全球视野，为家庭的教育之路提供可依赖的引导。`,
     },
   },
   {
@@ -125,58 +137,24 @@ The organisation works with schools, education providers and programme partners 
     status: 'live',
     badges: [{ en: 'Non-profit', zh: '非营利' }],
     description: {
-      en: `A Drop Foundation is a UK-based educational charity dedicated to inspiring young people to learn, grow, and contribute positively to society. The foundation focuses on nurturing curiosity, independent thinking, and personal development in the next generation through educational programs, mentorship, and community initiatives.
+      en: `A UK-based educational charity dedicated to inspiring young people to learn, grow, and contribute positively to society.
 
-**Mission**
-The foundation’s mission is to empower young people to discover their passions, develop confidence, and pursue meaningful life goals. It aims to encourage students to cultivate an independent mindset, build ai-first mindset, embrace challenges, and build resilience in a rapidly changing global environment. believe in education should be for free.
+**The problem we solve.** The qualities young people need most in a fast-changing world — curiosity, independent thinking, resilience, a sense of purpose — rarely emerge from exam-driven schooling alone, and many students lack guidance in discovering their passions and direction. We believe education should be free.
 
-**Vision**
-A Drop Foundation envisions a world where young people are inspired to learn, flourish, and serve their communities, unlocking their potential to make lasting positive contributions to society.
+**Technology & strengths.** A diverse portfolio of initiatives: educational programmes and mentoring that support student growth and leadership; an interview series and thought-leadership content featuring pioneers across disciplines; nature-based and experiential learning camps; and coding and digital-skills training with an AI-first mindset. Registered in the UK as a company limited by guarantee without share capital — a transparent, non-profit governance structure.
 
-**Key Activities**
-The foundation promotes educational and personal development through several initiatives, including:
-* Educational programs and mentoring to support student growth and leadership.
-* Interview series and thought-leadership content featuring pioneers across disciplines to inspire young people and families.
-* Learning initiatives and camps, such as nature-based and experiential education programs.
-* Technology and creative learning opportunities, including coding and digital skills training, ai-first.
+**Methodology.** Built for long-term impact: encouraging lifelong learning and intellectual curiosity, supporting personal purpose and wellbeing, promoting community engagement and social responsibility, and helping young people become confident global citizens.
 
-These activities aim to help students explore their interests, develop critical thinking, and prepare for future academic and professional paths.
+**Social value.** Free educational public good for the next generation — helping young people discover their passions, build confidence, embrace challenges, and develop resilience in a rapidly changing global environment, unlocking their potential to make lasting positive contributions to society.`,
+      zh: `总部位于英国的教育公益机构，致力于激励年轻人学习、成长并积极回馈社会。
 
-**Governance and Structure**
-A Drop Foundation operates in the United Kingdom and is registered as a private company limited by guarantee without share capital, a structure commonly used for non-profit organisations.
+**我们解决的问题。** 快速变化的时代里，年轻人最需要的好奇心、独立思考、韧性与使命感，很难从应试路径中自然获得；许多学生也缺少发现自身热情与方向的引导。我们相信教育应当是免费的。
 
-**Impact Approach**
-The foundation focuses on long-term impact by:
-* encouraging lifelong learning and intellectual curiosity, ai first mindset
-* supporting personal purpose and well-being
-* promoting community engagement and social responsibility
-* helping young people become confident global citizens`,
-      zh: `A Drop Foundation 是一家总部位于英国的教育公益机构，致力于激励年轻人学习、成长并积极回馈社会。基金会通过教育项目、导师辅导与社区行动，培养下一代的好奇心、独立思考与个人成长。
+**技术与优势。** 多元的项目组合：支持学生成长与领导力的教育项目和导师辅导；邀请各领域先行者的访谈系列与思想内容；自然教育与体验式营地；以及以 AI-first 思维开展的编程与数字技能训练。机构在英国注册为不设股本的担保有限公司，治理透明的非营利架构。
 
-**使命**
-基金会的使命是帮助年轻人发现自己的热情、建立自信、追求有意义的人生目标，鼓励学生培养独立思维与 AI-first 思维方式，拥抱挑战，在快速变化的全球环境中建立韧性。我们相信教育应当是免费的。
+**方法论。** 以长期影响为导向：鼓励终身学习与求知欲，支持个人使命感与身心健康，促进社区参与和社会责任，帮助年轻人成为自信的全球公民。
 
-**愿景**
-A Drop Foundation 期望一个年轻人被激励去学习、成长并服务社区的世界，释放他们为社会作出持久积极贡献的潜能。
-
-**主要活动**
-基金会通过多项行动促进教育与个人发展，包括：
-* 支持学生成长与领导力的教育项目和导师辅导。
-* 邀请各领域先行者的访谈系列与思想内容，激励年轻人与家庭。
-* 学习行动与营地，如自然教育与体验式教育项目。
-* 科技与创意学习机会，包括编程与数字技能训练（AI-first）。
-
-这些活动旨在帮助学生探索兴趣、发展批判性思维，为未来的学业与职业道路做好准备。
-
-**治理与架构**
-A Drop Foundation 在英国运营，注册为不设股本的担保有限公司，这是非营利组织常用的架构。
-
-**影响力路径**
-基金会关注长期影响：
-* 鼓励终身学习与求知欲，培养 AI-first 思维
-* 支持个人使命感与身心健康
-* 促进社区参与和社会责任
-* 帮助年轻人成为自信的全球公民`,
+**社会价值。** 面向下一代的免费教育公益——帮助年轻人发现热情、建立自信、拥抱挑战，在快速变化的全球环境中建立韧性，释放他们为社会作出持久积极贡献的潜能。`,
     },
   },
 ];
