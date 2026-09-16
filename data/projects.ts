@@ -76,7 +76,7 @@ export const projects: AIProject[] = [
     role: 'Researcher',
     status: 'live',
     badges: [
-      { en: '10 languages', zh: '10 种语言' },
+      { en: '14 languages', zh: '14 种语言' },
       { en: 'Daily automated updates', zh: '每日全自动更新' },
     ],
     description: {
@@ -84,7 +84,7 @@ export const projects: AIProject[] = [
 
 **The problem we solve.** Information about major global risks is scattered and often reaches the public as emotional, fragmented headlines; there is no continuous, quantified, multilingual public view.
 
-**Technology & strengths.** A fully automated data pipeline with a proprietary attribution algorithm fetches, computes, and publishes on a daily schedule with no manual intervention; the site is published in 10 languages so readers everywhere see the same quantified picture.
+**Technology & strengths.** A fully automated data pipeline with a proprietary attribution algorithm fetches, computes, and publishes on a daily schedule with no manual intervention; the site is published in 14 languages so readers everywhere see the same quantified picture.
 
 **Methodology.** Probabilities from multiple public sources are combined by odds pooling, with the proprietary attribution algorithm optimising the statistical weighting of each source — aggregation, never simple addition, so risk is not overstated; the methodology is open for readers to examine.
 
@@ -93,7 +93,7 @@ export const projects: AIProject[] = [
 
 **我们解决的问题。** 重大风险信息散落在各类来源中，公众看到的往往是情绪化、碎片化的标题；缺少一个持续、量化、多语言的公共视角。
 
-**技术与优势。** 全自动数据管线搭配自研归因算法，每日定时抓取、计算并发布，无需人工干预；官网覆盖 10 种语言，让不同语言的读者获得同一份量化视角。
+**技术与优势。** 全自动数据管线搭配自研归因算法，每日定时抓取、计算并发布，无需人工干预；官网覆盖 14 种语言，让不同语言的读者获得同一份量化视角。
 
 **方法论。** 采用概率聚合（odds pooling）方法整合多个公开概率来源，并以自研归因算法优化各来源的统计概率权重——聚合而非简单相加，避免夸大风险；方法论公开透明，读者可以自行检验。
 
