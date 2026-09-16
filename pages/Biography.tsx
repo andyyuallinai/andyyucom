@@ -39,6 +39,10 @@ const Biography: React.FC = () => {
           {t.bio.p4}
         </p>
 
+        <p className="mb-6">
+          {t.bio.p5}
+        </p>
+
         <div className="mt-12 p-8 bg-gray-50 border-l-2 border-ink-black">
           <h3 className="font-sans text-xs font-bold uppercase tracking-widest text-gray-500 mb-3">{t.bio.mottoTitle}</h3>
           <p className="text-xl font-serif italic text-ink-black">

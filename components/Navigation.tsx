@@ -73,7 +73,7 @@ const Navigation: React.FC = () => {
                 <button onClick={() => setShowWeChat(!showWeChat)} className="hover:opacity-80 transition-opacity flex items-center" title="WeChat Official Account">
                    <WeChatLogo className="w-6 h-6" />
                 </button>
-                <a href="https://wordpress.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <a href="https://andyyu.org" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
                    <WordPressLogo className="w-6 h-6" />
                 </a>
                 <a href="https://www.linkedin.com/in/andyyuhbsboston" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
@@ -143,7 +143,7 @@ const Navigation: React.FC = () => {
                 </div>
               )}
             </button>
-            <a href="https://wordpress.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity" aria-label="WordPress">
+            <a href="https://andyyu.org" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity" aria-label="WordPress">
                <WordPressLogo className="w-5 h-5" />
             </a>
             <a href="https://www.linkedin.com/in/andyyuhbsboston" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity" aria-label="LinkedIn">

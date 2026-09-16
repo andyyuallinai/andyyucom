@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
+import { articleList } from '../data/articles';
 
 const Articles: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const pick = (v: Partial<Record<string, string>> & { en: string }) => v[language] ?? v.en;
 
   return (
     <div className="max-w-3xl mx-auto pt-24 pb-16 px-6 lg:px-0 fade-in">
@@ -13,19 +15,19 @@ const Articles: React.FC = () => {
       </header>
 
       <div className="space-y-16">
-        {t.articles.items.map((article) => (
+        {articleList.map((article) => (
           <article key={article.id} className="group cursor-pointer">
             <Link to={`/articles/${article.id}`} className="block">
               <div className="flex items-baseline space-x-3 mb-2">
-                <time className="text-xs font-sans tracking-widest text-gray-400 uppercase">{article.date}</time>
+                <time className="text-xs font-sans tracking-widest text-gray-400 uppercase">{pick(article.date)}</time>
                 <span className="text-xs font-sans text-gray-300">/</span>
-                <span className="text-xs font-sans tracking-widest text-gray-400 uppercase">{article.tags[0]}</span>
+                <span className="text-xs font-sans tracking-widest text-gray-400 uppercase">{pick(article.tag)}</span>
               </div>
               <h2 className="text-3xl font-serif font-medium text-ink-black mb-3 group-hover:text-gray-600 transition-colors">
-                {article.title}
+                {pick(article.title)}
               </h2>
               <p className="font-serif text-gray-600 leading-relaxed max-w-xl">
-                {article.excerpt}
+                {pick(article.excerpt)}
               </p>
               <div className="mt-4 flex items-center text-xs font-sans font-medium uppercase tracking-widest text-ink-black opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
                 {t.articles.readMore} <span className="ml-2 text-lg">→</span>

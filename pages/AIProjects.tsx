@@ -3,9 +3,12 @@ import { useLanguage } from '../contexts/LanguageContext';
 import ReactMarkdown from 'react-markdown';
 import { ExternalLink } from 'lucide-react';
 import { projects, projectCategories } from '../data/projects';
+import { descriptionsByLang } from '../data/descriptions';
+import { pickLoc } from '../types';
 
 const AIProjects: React.FC = () => {
   const { t, language } = useLanguage();
+  const descriptions = descriptionsByLang[language] ?? descriptionsByLang.en;
 
   return (
     <div className="max-w-4xl mx-auto pt-24 pb-16 px-6 lg:px-12 fade-in">
@@ -20,7 +23,7 @@ const AIProjects: React.FC = () => {
           return (
             <section key={category.id}>
               <h2 className="text-sm font-sans font-bold tracking-[0.3em] text-gray-400 uppercase mb-4">
-                {category.label[language]}
+                {pickLoc(category.label, language)}
               </h2>
               <div className="space-y-20">
                 {items.map((project) => (
@@ -34,7 +37,7 @@ const AIProjects: React.FC = () => {
                           </span>
                           {project.badges?.map((badge, i) => (
                             <span key={i} className="text-[10px] font-sans tracking-[0.2em] uppercase border border-gray-300 text-gray-500 px-2 py-0.5">
-                              {badge[language]}
+                              {pickLoc(badge, language)}
                             </span>
                           ))}
                         </div>
@@ -62,7 +65,7 @@ const AIProjects: React.FC = () => {
                       prose-strong:font-bold prose-strong:text-gray-900
                       prose-ul:list-disc prose-ul:pl-5 prose-ul:space-y-2 prose-ul:my-6
                       prose-li:text-gray-700 prose-li:pl-2">
-                      <ReactMarkdown>{project.description[language]}</ReactMarkdown>
+                      <ReactMarkdown>{descriptions[project.id] ?? descriptionsByLang.en[project.id]}</ReactMarkdown>
                     </div>
                   </div>
                 ))}

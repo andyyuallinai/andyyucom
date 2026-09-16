@@ -1,27 +1,56 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { translations } from '../utils/translations';
+import { Lang, LANGS, LANG_CODES } from '../utils/i18n/types';
 
-type Language = 'en' | 'zh';
+export type Language = Lang;
 
 interface LanguageContextType {
   language: Language;
-  toggleLanguage: () => void;
+  setLanguage: (lang: Language) => void;
   t: typeof translations.en;
 }
+
+const STORAGE_KEY = 'site-lang';
+
+const readStoredLanguage = (): Language => {
+  try {
+    const stored = window.localStorage.getItem(STORAGE_KEY);
+    if (stored && (LANG_CODES as string[]).includes(stored)) {
+      return stored as Language;
+    }
+  } catch {
+    // storage unavailable — fall through to default
+  }
+  return 'en';
+};
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguageState] = useState<Language>(readStoredLanguage);
 
-  const toggleLanguage = () => {
-    setLanguage((prev) => (prev === 'en' ? 'zh' : 'en'));
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang);
+    try {
+      window.localStorage.setItem(STORAGE_KEY, lang);
+    } catch {
+      // storage unavailable — selection just won't persist
+    }
   };
 
-  const t = translations[language];
+  useEffect(() => {
+    const meta = LANGS.find((l) => l.code === language);
+    if (!meta) return;
+    const root = document.documentElement;
+    root.lang = meta.htmlLang;
+    root.dir = meta.dir;
+    root.setAttribute('data-lang', language);
+  }, [language]);
+
+  const t = translations[language] ?? translations.en;
 
   return (
-    <LanguageContext.Provider value={{ language, toggleLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );

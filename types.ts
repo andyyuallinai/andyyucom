@@ -8,10 +8,13 @@ export interface Article {
   tags: string[];
 }
 
-export interface LocalizedText {
-  en: string;
-  zh: string;
-}
+import type { Lang } from './utils/i18n/types';
+import type { ProjectId } from './data/descriptions/types';
+
+export type LocalizedText = Partial<Record<Lang, string>> & { en: string };
+
+export const pickLoc = (text: LocalizedText, lang: Lang): string =>
+  text[lang] ?? text.en;
 
 export interface ProjectLink {
   url: string;
@@ -24,14 +27,13 @@ export interface ProjectCategory {
 }
 
 export interface AIProject {
-  id: string;
+  id: ProjectId;
   name: string;
   category: string;
   links: ProjectLink[];
   role: string;
   status: 'live';
   badges?: LocalizedText[];
-  description: LocalizedText;
 }
 
 export interface CollectionItem {

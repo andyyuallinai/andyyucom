@@ -1,7 +1,7 @@
 type TranslatePayload = {
   articleId: string;
   text: string;
-  targetLang: "en" | "zh";
+  targetLang: string;
 };
 
 export const translateContent = async ({

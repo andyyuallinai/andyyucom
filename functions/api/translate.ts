@@ -3,10 +3,27 @@ interface Env {
   DB: any;
 }
 
+const LANGUAGE_NAMES: Record<string, string> = {
+  en: "English",
+  zh: "Simplified Chinese",
+  zt: "Traditional Chinese",
+  ar: "Arabic",
+  de: "German",
+  es: "Spanish",
+  fr: "French",
+  hi: "Hindi",
+  ja: "Japanese",
+  ko: "Korean",
+  ms: "Malay (Bahasa Melayu)",
+  ru: "Russian",
+  th: "Thai",
+  vi: "Vietnamese",
+};
+
 type TranslateRequestBody = {
   articleId?: string;
   text?: string;
-  targetLang?: "en" | "zh";
+  targetLang?: string;
 };
 
 const jsonResponse = (status: number, body: unknown) =>
@@ -46,7 +63,7 @@ export const onRequestPost = async (context: { request: Request; env: Env }) => 
     const text = body.text?.trim() || "";
     const targetLang = body.targetLang;
 
-    if (!text || !targetLang || !["en", "zh"].includes(targetLang)) {
+    if (!text || !targetLang || !(targetLang in LANGUAGE_NAMES)) {
       return jsonResponse(400, { error: "Invalid payload" });
     }
 
@@ -76,7 +93,7 @@ export const onRequestPost = async (context: { request: Request; env: Env }) => 
       return jsonResponse(500, { error: "Missing GEMINI_API_KEY secret" });
     }
 
-    const prompt = `Translate the following markdown text to English.
+    const prompt = `Translate the following markdown text to ${LANGUAGE_NAMES[targetLang]}.
 Maintain original markdown formatting (headings, lists, emphasis, tables, links).
 Do not add any commentary. Return translated markdown only.
 
