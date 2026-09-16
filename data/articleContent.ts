@@ -1271,5 +1271,603 @@ But before that, please remember this:
 **The number one capability in the AI era is not writing code, not memorizing prompts, but: whether you dare, and are able, to issue clear Commands.**
 
 Any Intent can be realized; in CUBE theoretical principles, start from C.
-    `
+    `,
+    '5': `
+# Why Is Ivan Zhao's Notion the Finest Business Case for the CUBE Principle?
+
+*JAN 23, 2026 / AI*
+
+---
+
+Introduction: The Paradigm Shift from Tool to Engine
+
+In Silicon Valley's VC circles, everyone is talking about the survival crisis of "AI wrappers." And yet Notion shines like a BEAM of light, illuminating a higher possibility for AI in practice. During his quiet retreat in Kyoto, Ivan Zhao was not pondering how to build a better document; he was pondering how to reinvent the interaction between human and computer. This aligns precisely with the **CUBE framework** I have proposed: Notion is not merely a product, but **a system that institutionalizes intelligence (Institutionalize Intelligence)**.
+
+Of all the products born of the generative AI wave, Notion is one of the rare few that has fully run the loop of "philosophy → product → cash flow → moat." Seen through the lens of CUBE (Command / Use / Build / Evaluate), it is almost a living specimen of the entire framework.
+
+**1. From "Tool" to "Operating System": Where Notion Meets CUBE**
+
+From the very start, Notion was never a "note-taking App," but a "Lego desktop that lets users build their own working systems." Deeply influenced by Engelbart, Alan Kay, and others, Ivan Zhao defined Notion as: **helping human beings construct their own "operating system" for knowledge and work**.
+
+CUBE says:
+
+*   Command: the human issues clear intent and instructions
+
+*   Use: treat AI as leverage, not as a crutch
+
+*   Build: construct systems, rather than chasing one-off "satisfying outputs"
+
+*   Evaluate: make decisions through a closed loop of data and feedback
+
+Notion, in turn:
+
+*   Packs your Command (documents, requirements, tasks) into a unified space
+
+*   Helps you Use (Notion + Notion AI) as leverage for knowledge and collaboration
+
+*   Lets you Build your own workflow systems (databases, templates, wikis)
+
+*   Provides search, relations, and AI summaries and analysis, making it easy to Evaluate results continuously.
+
+In other words, if CUBE is a "concept of a work OS" for the AI era, then Notion is its first large-scale commercial specimen in the real world.
+
+**2. C: Command — Notion Turns "Good Instructions" into "Good Structure"**
+
+**The first article of the CUBE manifesto:**
+
+**AI does not think - it executes instructions at scale.**
+
+Ivan Zhao's answer to this problem was: then help the user turn their "instructions" into "structured pages and databases."
+
+*   The heart of Notion is its "blocks" and page structure:
+the user is not merely writing a paragraph, but implicitly building "computable context and constraints" for a future AI and team
+
+*   Notion AI, which came later, works within this "structured space":
+it knows page relations, database structures, and historical context, and can understand your instructions within "one unified space" rather than guessing wildly among scattered files.
+
+This aligns perfectly with the Command of CUBE:
+
+*   C is not "asking casually," but "issuing instructions within a clear space and structure."
+
+*   Through product design, Notion dramatically lowers the threshold for "good instructions" — when you seriously design a document's structure, you are already crafting a high-quality prompt environment for the AI.
+
+**3. U: Use — Notion Makes AI "Leverage," Not a "Crutch"**
+
+**The second article of the CUBE manifesto:**
+
+**Use AI as leverage, not as a crutch.**
+
+The products that endure over the long run in Silicon Valley almost all avoid one trap: **letting the user "go limp" and hand over their brain.**
+
+The design choices of Notion and Notion AI are exemplary:
+
+*   The core remains "the workspace you build yourself": knowledge base, project library, task system — the AI augments the structure you already have, rather than thinking for you about what structure to use.
+
+*   What Notion AI can do:
+automatically generate project plans, summarize meeting notes, complete documents, generate templates... but always on one condition:
+
+*   the user must first have context, first have a space, first have a certain density of information.
+
+This is precisely the Use of CUBE:
+
+*   Use AI to amplify systems and expertise you already possess (your knowledge base, your SOPs, your projects), rather than letting AI "own a brain" on your behalf.
+
+*   Notion did not turn itself into a "pure chatbot"; instead it embedded AI deeply into your workspace, as "structured leverage."
+
+For engineers and investors alike, this is extremely important:
+
+An AI product that can make money over the long term must make users increasingly "systematic," not increasingly "dependent on random questions." Notion is doing exactly the former.
+
+**4. B: Build — Notion Builds Value with "Systems," Not "Feature Points"**
+
+The third article of the CUBE manifesto:
+
+Enduring value comes from workflows and systems, not one-off outputs.
+
+Notion's commercial moat, in fact, comes precisely from the "B":
+
+*   At the product level:
+From the outset, Notion was designed around "modularity + blocks + database," letting users freely build their own knowledge systems, project systems, and OKR systems.
+
+*   This makes Notion more like a "low-code system-building platform" than "a tool for writing documents."
+
+*   At the business level:
+Once a team's processes, documents, tasks, and decisions all form a system inside Notion, the cost of migration becomes extremely high.
+
+*   As AI then performs automation, insight, and summarization on top of these systems, this system-level lock-in grows ever stronger.
+
+From a VC perspective, this is a very clear CUBE-B:
+
+*   Its valuation does not rest on "some AI feature," but on the long-term value formed by "systematized workflows + an AI overlay."
+
+*   The underlying logic behind Notion becoming a ten-billion-dollar company is not "how big is the document market?" but "how large is the aggregation effect of work systems and knowledge operating systems?"
+
+**5. E: Evaluate — Notion Makes "Searchable, Reusable, Analyzable" the Default State**
+
+The fourth article of the CUBE manifesto:
+
+What you don't measure, you can't trust or control.
+
+Notion does several things for "evaluability":
+
+*   It unifies all content within a single workspace:
+search, relations, and database views let you filter, sort, and organize by project, owner, status, and time — this is the most fundamental "evaluability."
+
+*   Notion AI then goes a step further:
+it automatically summarizes project status for you, generating progress reports, risk analyses, and next-step recommendations.
+
+*   In its 2025 versions, it also emphasizes workflow optimization, trend recognition, and bottleneck detection, helping teams evaluate the process itself.
+
+This is a textbook CUBE-E:
+
+*   The user no longer gropes blindly through a pile of "scattered files + chat logs," but has a unified system + AI assistance to perform meta-level evaluation and optimization.
+
+*   The object of evaluation is not just "is this document well written," but also "is this process efficient," and "can knowledge be quickly absorbed by new members."
+
+For engineers, this means turning "data structures + behavioral data on the workspace" into evaluation signals usable by AI. For investors, it is **a very clear compounding loop**.
+
+**6. Reading Notion as a "Living CUBE Manifesto"**
+
+**The CUBE Manifesto**
+
+*   **Command: AI does not think - it executes instructions at scale.** Design a clear space and structure so that your instructions can be truly understood by both machine and team.
+
+*   **Use: Use AI to amplify skills, not to replace them.** Treat AI as an amplifier of your systems and expertise, not as the illusion of a replacement brain.
+
+*   **Build: Build systems, not demos.** Distill each output into reusable processes, databases, and a knowledge operating system.
+
+*   **Evaluate: What you don't measure, you can't trust or control.** Keep both AI and team in a controllable state through what is searchable, analyzable, and monitorable.
+
+And Notion + Notion AI happen to prove, in the real world, that:
+
+*   such a philosophy **can be productized**,
+
+*   it can be used by people in their daily lives,
+
+*   it can win the recognition of Silicon Valley's top-tier investors,
+
+*   and even at a billion-dollar scale, it can still sustain a philosophy of "system first, tool second."
+
+`,
+    '6': `
+# The CUBE Principle: A Methodology for Turning AI from a Tool into a System
+
+*JAN 22, 2026 / AI*
+
+---
+
+***CUBE: Architecting Intelligence into Impact***
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2026/01/andyyuallinai_hyperdimensional_matrix_topology_unfolding_in_i_c739faf0-0098-4f77-93f4-0d7e32ad910e_2.png?w=1024)
+
+The CUBE Principle, which I am proposing for the first time: a methodology for turning AI from a "tool" into a "system"
+
+Over the past few years, many people have been talking about Prompts, about models, about efficiency.
+
+But I have noticed a more fundamental, more brutal reality:
+
+with the same AI and the same tools, some people grow stronger the more they use them, while others grow more chaotic.
+
+The gap does not lie in the model, nor in the plugins, nor in "knowing how to write prompts."
+
+The gap lies in something more fundamental —
+
+whether you have a methodology and a system that can be reused, iterated, and made ever stronger over the long term.
+
+So I distilled my own years of learning to use AI — especially LLMs such as ChatGPT, Gemini 3, Grok, Claude, and Perplexity — into a simple, transmissible, and modelable framework, and named it:
+
+CUBE (Command · Use · Build · Evaluate)
+
+This is not "yet another prompting trick," but a structured method for genuinely bringing AI into the system of your work and life.
+
+Today, I formally release it, as my core theoretical system - The CUBE Principle.
+
+**1. Why I Propose CUBE: Because "Knowing How to Use AI" Does Not Equal Capability**
+
+Most people's use of AI is stuck at one stage:
+
+need something → ask it
+
+get a result → copy and paste
+
+not satisfied → ask again
+
+This looks like "knowing how to use AI," but in essence it is merely instant consumption.
+
+What is true capability?
+
+Turning AI into your productivity system, making it controllable, reusable, and capable of growth.
+
+You will find that:
+
+the quality of a single output does not constitute strength; a reusable system is what constitutes strength.
+
+CUBE solves precisely this problem:
+
+moving from a "question-and-answer tool" to "systematic leverage."
+
+**2. What CUBE Is:**
+
+**The CUBE (C-U-B-E)** theory rises from the underlying "interaction" to the top-level "system," fitting closely with Silicon Valley's current shift from **GenAI (Generative AI)** toward **Agentic Workflow**. I will explain it from the perspective of Silicon Valley's most cutting-edge **"Reasoning-Centric"** view in 2026:
+
+1. Deep theoretical optimization: evolving from "action" to "strategy"
+
+At CES and VC conferences, what investors prize is the **Moat**. Contextualizing the four words gives them more "geek" flavor and more commercial depth:
+
+**C - Command (Intent Engineering)**
+
+*   Perspective: Silicon Valley no longer talks about Prompts; it talks about **Intent**.
+
+*   **Core idea:** *Intent is the new Code.*
+
+*   AI's executive power depends on the user's ability to deconstruct complex logic. Command is not merely issuing orders; it is **logical modeling**.
+
+Command — you are not "asking a question," you are "issuing a command"
+
+Many people treat the Prompt as a technique, but the essence of the Prompt is this:
+
+what you give AI is not a question but a command; not a chat but an engineering specification. It is not a tool, but your partner.
+
+When you type "write me an article," what you usually get is something vague and generic.
+
+When you type a structured command, what you get is a usable result.
+
+I break Command down into a minimal reusable structure (which you can apply directly):
+
+Role + Goal + Constraints + Criteria
+
+- who you are (whom the AI plays)
+
+- what you want to achieve (the scenario the output serves)
+
+- what it must not do (boundaries, style, length, audience)
+
+- what counts as good (evaluation standards, format, number of examples)
+
+Command determines the ceiling of the result.
+
+If you give it no structure, AI can only give you something that "looks like an answer." That ceiling is not set by the AI, but by the user.
+
+**U - Use (Symbiotic Collaboration)**
+
+*   **Perspective:** Avoid treating AI merely as a "tool"; it is a **Co-pilot** or **Digital Twin**.
+
+*   **Core idea:** *Augmentation over Automation.*
+
+*   Silicon Valley's elite champion "human-machine collaboration." AI supplies speed; the human supplies the **Taste** that AI lacks.
+
+Use — the true masters are those who know how to "collaborate"
+
+Many people think Use just means "asking and using more."
+
+But the Use I understand is this:
+
+let AI become a collaborator, a **Co-pilot** or **Digital Twin**: you take charge of judgment and of elevating taste; it takes charge of execution and of empowering efficiency.
+
+The key to Use is not "getting it perfect in one shot," but rhythm:
+
+- coarse first, then fine
+
+- framework first, then filling in
+
+- selection first, then optimization
+
+- produce several options first, then judge
+
+The human handles: direction, judgment, trade-offs, taste, values.
+
+AI handles: generating, summarizing, expanding, comparing, formatting, and boosting productive efficiency.
+
+The clearer you are about the boundaries, the more AI can become an amplifier.
+
+The more you hand your judgment over to AI, the more you will be dragged along by text that "looks correct."
+
+**B - Build (Turning into Assets)**
+
+*   **Perspective:** A single conversation has no value; **Workflows** are the asset.
+
+*   **Core idea:** *Systems are the Moat.*
+
+*   The user is building an "automation engine," not merely using a web plugin. This is about **Scalability**.
+
+Build — what you want is not an answer, but a "reusable system"
+
+CUBE's watershed lies in Build.
+
+The vast majority of people stop at Use, so every day they repeat themselves:
+
+- ask once today
+
+- ask again tomorrow
+
+- ask in a different way the day after
+
+This is not capability; it is depletion.
+
+The definition of Build is:
+
+solidifying one success into the starting point of the next.
+
+Build's path to implementation is very clear:
+
+good result → Prompt template → SOP process → systematized asset
+
+For example, once you have written a "publication-grade external article," do not stop at "done."
+
+You should distill:
+
+- an article structure template
+
+- a headline library
+
+- opening hooks
+
+- lines of argument
+
+- a closing CTA
+
+- a lexicon of your own tone and style
+
+Once you start to Build, you enter a certain state:
+
+you are not using AI to write content; you are using AI to replicate your own capabilities.
+
+This is a compounding asset.
+
+**E - Evaluate (Governance and the Closed Loop)**
+
+*   **Perspective:** The hottest terms of 2026 are **RLHF (Reinforcement Learning from Human Feedback)** and **LLM-as-a-Judge**.
+
+*   **Core idea:** *No Evaluation, No Evolution.*
+
+*   Only through evaluation can you build a data loop. This is what separates the "amateur player" from the "enterprise-grade application."
+
+Evaluate — without evaluation there is no control; without control there is no evolution
+
+Many people have only one criterion for judging AI:
+
+"do I like it or not."
+
+But within a system, "liking it" is not the standard; "effectiveness" is the standard.
+
+Evaluate must solve two problems:
+
+1. Did this output actually achieve the goal?
+
+2. If not, at which step did the problem lie — Command, Use, or Build?
+
+I recommend a simple but powerful method of evaluation:
+
+score along 4 dimensions (0-10)
+
+- Accuracy (Facts)
+
+- Usability (Actionability)
+
+- Clarity (Clarity)
+
+- Fit to goal (Fit)
+
+After scoring, you must do one thing:
+
+feed the evaluation conclusion back into Command, and rewrite the command structure.
+
+This is the closed loop.
+
+Evaluate determines whether you will keep growing stronger.
+
+**3. The CUBE Principle Manifesto**
+
+**CUBE: Architecting Intelligence into Impact.**
+
+CUBE: architecting intelligence, transforming it into impact.
+
+**4. The Meaning of CUBE: It Does Not "Teach You How to Ask AI," but Makes AI Your System**
+
+CUBE is not about helping you write prettier Prompts.
+
+CUBE is about giving you a new capability:
+
+turning AI from "instant answers" into a "long-term compounding asset."
+
+When you truly master CUBE, a clear change occurs in you:
+
+you no longer chase a single perfection, but pursue closed-loop iteration.
+
+you no longer indulge in tools, but manage system assets.
+
+you are no longer led along by AI's output, but can command it to serve you.
+
+This is also the original intention behind my proposing CUBE:
+
+not to make you better at using AI, but to have you use AI to build a stronger self.
+
+**5. How I Will Keep Publishing CUBE: Turning It into a System You Can Use**
+
+Starting today, I will keep producing four series around CUBE (one main thread per letter):
+
+The C series: command structures and high-quality Prompt engineering
+
+The U series: the rhythm of human-machine collaboration and the deconstruction of workflows
+
+The B series: templatization, SOP-ization, and turning systems into assets
+
+The E series: evaluation systems, metrics, feedback loops, and evolution strategies
+
+If you are willing to join me in turning AI into a system rather than a tool.
+
+You can start practicing CUBE today with a single sentence:
+
+write the Command first, then begin to Use;
+
+Build immediately after you produce;
+
+and finally, let Evaluate make the next time stronger.
+
+**A closing note:**
+
+The true watershed of the future is not "who can use AI," but:
+
+who can use AI to build systems, and keep evaluating and evolving them.
+
+I have named this system THE CUBE PRINCIPLE, and I will keep refining it, expanding it, and making it public.
+
+If you too are searching for an AI methodology that is replicable, actionable, and able to grow stronger over the long term.
+
+Follow me, and next we will make real compounding gains together with CUBE.
+
+**THE CUBE PRINCIPLE:**
+
+**CUBE: Architecting Intelligence into Impact.**
+
+CUBE: architecting intelligence, transforming it into impact.
+
+`,
+    '7': `
+# Cooking Is the Highest Aesthetic Taste a Person Can Have
+
+*NOV 4, 2025 / LIFE*
+
+---
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/1bafba29573c10999a965b5ea9440459.jpg?w=768)
+
+*London Dock home party*
+
+A person's true aesthetic and taste begin with cooking.
+
+This is not some sentimental life motto, but a very deep philosophy of living. What makes a human being "human" is that we understand how to choose — what to eat, how to eat, and with whom. Cooking is not merely a craft for satisfying the appetite; it is an aesthetic practice of self-cultivation.
+
+"You are what you eat." The phrase sounds simple, yet it is a kind of mirror. A person who relies on takeout year-round has, in a certain sense, also handed their life over to the system's algorithms; a person willing to spend time in the kitchen, handling ingredients with their own hands, keeps, drop by drop, the most authentic connection with the world. The texture of one's food reflects the texture of one's inner being.
+
+Cooking is the most everyday of arts. It does not flaunt itself, does not clamor, yet it demands an exceptionally high sensitivity. Buying groceries reveals a person's delicacy toward life; cutting reveals a person's grasp of rhythm; seasoning holds a person's command of balance. Even the measure of a spoonful of salt or a drop of soy sauce is a dialectic of "excess" and "restraint." The kitchen is a small universe; it contains heat and calm, instinct and reason, and it also lets you reflect on yourself — if you are hasty, the food burns; if you are focused, the aroma arrives on its own.
+
+The scent of a meal in the home is the very proof that a home is truly alive. It is the most unadorned, most tender form of happiness. A child waiting at the table, a partner calling softly from the kitchen, the symphony of pots and pans — it settles the heart more than any music. True intimacy is not an expensive gift, nor sweet words, but the time two people spend together picking vegetables, simmering soup, and tasting as they go. That tacit understanding and warmth make up the deepest romance of living.
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_4300.jpg?w=768)
+
+To host friends by cooking at home is the most sincere form of hospitality. To serve someone a table of dishes you made yourself, four to six hours of deep conversation, is not a display of culinary skill but a gift of time and heart. Someone once said that a person who cooks is in fact using their own life-energy to nourish others. This kind of sharing is not a social performance, but a humane warmth. Compared with the exquisite yet distant dishes of a restaurant, a homemade stir-fry served at home carries far more genuine feeling.
+
+And the layers of aesthetic sensibility hide in every detail. The choice of ingredients is a choice of values; the manner of cooking is a reflection of one's philosophy of life; the pairing of tableware and the presentation of a dish are all extensions of one's character. A person who understands life will not eat from a careless plastic bowl, nor let the smoke and grease drown out the rhythm. In cooking, one is also creating — creating order, creating warmth, creating one's relationship with the world.
+
+Some say the kitchen is the "heart" of the home. I would rather say that cooking is a mirror of a person's soul. If you are restless, it turns noisy; if you are at peace, it turns tranquil. Within the oil, salt, sauce, and vinegar lie a person's state of mind, and the true meaning of living.
+
+Cooking is, in fact, a rhetoric of life. It is not the showing-off of technique, but a tender sense of order, a reverence for time and beauty. A person who can patiently wash vegetables, wait for the water to boil, and watch over the heat can usually also treat life's uncertainties with patience.
+
+True aesthetics begins in the kitchen.
+
+It is not the staged play of light and shadow, nor the design of a restaurant, but the focus and restraint toward life found between one meal and the next.
+
+When you cook a bowl of noodles for yourself with your own hands, or ladle a bowl of soup for your family, you are already completing the most tender and noble of aesthetic practices.
+
+In that moment, you are not merely someone cooking; you are, in your own way, ordering the rhythm of life, sculpting the texture of living, and living into a landscape that belongs to you alone.
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_0269.jpg?w=768)
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_9278.jpg?w=768)
+
+`,
+    '8': `
+# Cooking Is the Finest Philosophy of Corporate Management Strategy
+
+*NOV 2, 2025 / LIFE*
+
+---
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_7573.jpg?w=1024)
+
+*French organic vegetable mousse*
+
+Every time I prepare to host guests, the process feels to me like a strategic rehearsal for a company. From imagining the menu to the moment the guests depart, each instant holds the insight, rhythm, and inner discipline that running a company requires. On the surface, cooking is an art of satisfying the palate; in truth it is a philosophy of management — of integrating resources, balancing human nature, and creating value.
+
+When the image of a table of dishes I want to present rises in my mind, that moment is like a company establishing its vision. It is not a mere conception of dishes, but a mental picture of an "ideal state" — it depicts the value and experience I want to present in the future. The power of such a vision is the origin point of a company's growth. Just as an operator drafting a strategic blueprint pursues not the profit of the moment, but that ideal picture — as yet unfinished, yet enough to inspire the team to press forward.
+
+Next, I begin to consider each guest's tastes and preferences: some avoid spice, some abstain from seafood, some love sweets. Only after understanding these differences deeply can I truly decide on the menu. This is like the market research and user interviews a company conducts before launching a new product — what you offer is not what you are best at, but what the customer truly craves. To know how to listen is the first cultivation of a manager.
+
+Once the dishes are set, we enter the stage of resource integration. Sourcing organic ingredients, selecting raw materials, coordinating time and manpower — all of this is supply-chain management. If you want to bring a dish to its utmost, even to the realm of "from farm to table," then every link must cooperate smoothly — this is precisely the art of supply-chain integration in corporate operations.
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_7576.jpg?w=1024)
+
+When all the ingredients are in place, the various appliances in the kitchen become my most reliable team. The soup pot, the oven, the steamer, the stovetop — each with its own duty, fighting in concert. This reminds me of the collaboration among a company's internal departments: R&D, marketing, finance, legal — only under clear division of labor and effective communication can synergy emerge. And in this process, I often throw myself in completely, entering a state of "flow." It is a selfless, pure immersion, like an entrepreneur staying focused amid strategic execution, not easily disturbed even as the winds howl outside.
+
+Yet, just as the preparation of a banquet often brings the unexpected — guests arriving early, ingredients running short, equipment failing — the journey of running a company is likewise full of uncertainty. Market swings, policy changes, competitive pressure, rising costs... every variable can throw off the rhythm. Only by staying flexible within stability, skillfully using the multidimensional strategies of one's "toolbox," can complex challenges be turned into opportunities for innovation. True managerial wisdom lies not in avoiding the waves, but in learning to dance with them.
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_7574.jpg?w=366)
+
+As the guests take their seats one by one, what I must do is present each dish in its finest state. This moment is like a company's "display window" toward the outside world — the conveying of the brand story, the product image, the market narrative. The CEO and founder, like the head chef, are the tellers of the company's vision. How to tell your own story well, so the market understands and trusts you, is not merely a skill of communication but a form of leadership. Look at Musk, Cook, Jensen Huang — they are not only making products, they are telling a narrative about the future.
+
+As the banquet draws to a close, the order in which dishes are served, the pairing of drinks, the command of rhythm — these are the final sprint. Any single detail can affect the whole experience. So it is with a company — customer experience, service feedback, word of mouth on social media, after-sales support — all are the last mile of brand value. Only by staying keen amid dynamic adjustment and constantly optimizing within the feedback loop can a company achieve the "oneness of customer and brand."
+
+When the banquet disperses and friends leave fully content, one feels an ineffable serenity. It is a joy only a manager can understand — when strategy, execution, experience, and human hearts merge into one within the same field.
+
+It turns out that cooking and running a company are, at heart, no different.
+Both are about the "realization of a vision" and the "fulfillment of human nature."
+
+In the dialogue between taste and time, we come at last to see:
+true management is not control, but letting everything find its rightful place,
+and, between order and creation, generating a light and fragrance that are one's own.
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/11/img_7575.jpg?w=1024)
+
+`,
+    '9': `
+# The Quiet Way of Cooking
+
+*OCT 28, 2025 / LIFE*
+
+---
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/10/img_4301.jpg?w=768)
+
+*Homemade colorful salad*
+
+Every act of cooking is, for me, an inner pilgrimage. It is not for filling the stomach, nor for pleasing others, but a way of returning to the center of the self — of apprehending order, compassion, and purity within the slow flow of time.
+
+**I like to compare cooking to spiritual practice.**
+
+Practice is not about withdrawing from the world, but about finding, within the most ordinary of days, the path toward the heart. Just as in the half-year I studied at Le Cordon Bleu in London, at first I thought I was learning technique; only later did I realize it was more like learning "focus" — an ability to settle consciousness fully into this present moment. The West prizes precision and proportion; the East prizes breath and mood, and when the two met within me, a wordless wisdom that transcends culture gradually took shape:
+
+**it turns out the meaning of cooking lies not in form, but in "awareness."**
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/10/img_7494.jpg?w=768)
+
+*Fusion Burger*
+
+Tonight, for instance, I will host six friends.
+
+Before I begin, I first sit quietly and reflect on each person's temperament and taste: some prefer vegetables, some crave sourness; some like it light, some love it rich and fragrant. **To know them is a form of care, and also a form of practice. The first step of practice is learning to perceive the world of another.**
+
+Then I begin to conceive the dishes in my mind. That moment is like making a wish — not to a god, but to myself. Many ideas surface naturally in my mind, sometimes like the outline of a painting, sometimes merely the association of a certain scent.
+
+I believe that true inspiration comes not from technique, but from the stillness of the heart. When the mind no longer clamors, the colors and flavors of the world reveal themselves of their own accord.
+
+**The process of preparation is a meditation.**
+
+**Every step demands being fully present: discerning, coordinating, integrating, adjusting. If the mind wavers, the flavor loses balance; if the mind is still, and you attend closely to this "subtle body," everything falls into place of itself.**
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/10/img_7495.jpg?w=970)
+
+*Thai-style crayfish tom yum*
+
+In such a state, time seems no longer to flow; there is only pure focus and tenderness. The relationships among ingredients, the distances among people, all become soft.
+
+I have always believed that the essence of cooking is to let the plainest things be seen anew. It is a power of returning to simplicity and truth. The natural aroma of food needs no elaborate ornament; the less the seasoning, the more its true nature shows. This "less" is not scarcity, but a respect for "just right."
+
+When everything is ready and the table is set, I always feel, in silence, a kind of completeness. It is a soundless prayer and dedication: may everyone, within this one meal, feel the warmth of being understood and cared for. That warmth comes not from the food, but flows from one pure heart into another.
+
+**The process of cooking is, in fact, the process of the self reconciling anew with the world.**
+
+Learning not to control, but to coexist with every change; learning not to grow impatient, but to respect the natural rhythm of things.
+
+**When the heart dwells at peace alongside every subtle thing**, what we call "deliciousness" lies not on the tip of the tongue, but within that focus and love.
+
+**And so, every dish is a presentation of the heart.**
+
+**It reminds me: the practice of life is not in some distant place, not on a high mountain, but in that very moment — when I quietly face life, feeling the breath and warmth of the present, the world has already become a tender feast.**
+
+![](https://andyyulondon-otquf.wordpress.com/wp-content/uploads/2025/10/054b9f09694252508939193b13bfda77.jpg?w=768)
+
+*Mint scallop with caviar*
+
+`
   };

@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Loader2 } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { useLanguage } from '../contexts/LanguageContext';
-import { translateContent } from '../services/aiService';
 import { articleContentZh, articleContentEn } from '../data/articleContent';
 import { articleList } from '../data/articles';
 import { getArticleStrings } from '../data/articlesI18n';
@@ -11,64 +10,15 @@ import { getArticleStrings } from '../data/articlesI18n';
 const ArticleDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const { t, language } = useLanguage();
-  const [content, setContent] = useState<string>('');
-  const [isTranslating, setIsTranslating] = useState(false);
 
-  // The original article content in Chinese (Markdown format)
-  const articles = articleContentZh;
+  const key = id || '1';
+  const zhBody = articleContentZh[key] || articleContentZh['1'];
+  const enBody = articleContentEn[key] || articleContentEn['1'];
 
-  const originalContentZh = articles[id || '1'] || articles['1'];
-
-  const englishArticles = articleContentEn;
-
-  const [translationCache, setTranslationCache] = useState<Record<string, string>>({
-    zh: originalContentZh,
-    en: englishArticles[id || '1']
-  });
-
-  // Reset cache when article changes
-  useEffect(() => {
-    setTranslationCache({
-      zh: originalContentZh,
-      en: englishArticles[id || '1']
-    });
-  }, [originalContentZh, id]);
-
-  useEffect(() => {
-    const fetchTranslation = async () => {
-      // If we already have the content for the current language, use it
-      if (translationCache[language]) {
-        setContent(translationCache[language]);
-        return;
-      }
-
-      // Otherwise, translate it
-      setIsTranslating(true);
-      try {
-        // We only have Chinese source for now, so translate from zh to current language (likely 'en')
-        const translated = await translateContent({
-          articleId: id || '1',
-          text: originalContentZh,
-          targetLang: language,
-        });
-        
-        // Update cache and content
-        setTranslationCache(prev => ({
-          ...prev,
-          [language]: translated
-        }));
-        setContent(translated);
-      } catch (error) {
-        console.error("Failed to translate:", error);
-        // Fallback to original content if translation fails
-        setContent(originalContentZh);
-      } finally {
-        setIsTranslating(false);
-      }
-    };
-
-    fetchTranslation();
-  }, [language, originalContentZh, translationCache]);
+  // Bodies are served statically: Chinese for zh, English for every other
+  // language (English is the international default). Full per-language body
+  // translation can be layered on later without touching this component.
+  const content = language === 'zh' ? zhBody : enBody;
 
   const currentIndex = articleList.findIndex((a) => a.id === (id || '1'));
   const nextArticle = currentIndex >= 0 ? articleList[(currentIndex + 1) % articleList.length] : undefined;
@@ -80,13 +30,7 @@ const ArticleDetail: React.FC = () => {
           <ArrowLeft size={12} className="mr-2" /> {t.articles.back}
         </Link>
         
-        {isTranslating ? (
-          <div className="flex flex-col items-center justify-center py-20 space-y-4">
-            <Loader2 className="animate-spin text-gray-400" size={32} />
-            <p className="text-sm font-sans text-gray-400 uppercase tracking-widest">Translating...</p>
-          </div>
-        ) : (
-          <article className="prose prose-neutral prose-lg font-serif text-gray-800 leading-[2] max-w-none 
+        <article className="prose prose-neutral prose-lg font-serif text-gray-800 leading-[2] max-w-none
             prose-headings:font-sans prose-headings:font-bold prose-headings:tracking-normal prose-headings:text-ink-black 
             prose-h1:text-4xl prose-h1:leading-tight prose-h1:mb-8
             prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-4
@@ -101,7 +45,6 @@ const ArticleDetail: React.FC = () => {
             selection:bg-blue-100 selection:text-blue-900">
             <ReactMarkdown>{content}</ReactMarkdown>
           </article>
-        )}
       </div>
 
       {nextArticle && (
