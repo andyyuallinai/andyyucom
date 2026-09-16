@@ -78,10 +78,7 @@ export const trunkItems: TrunkItem[] = [
 ];
 
 export const galleryImages: GalleryImage[] = [
-  { id: 'g1', image: '/collections/gallery-01.jpg' },
   { id: 'g2', image: '/collections/gallery-02.jpg' },
-  { id: 'g3', image: '/collections/gallery-03.jpg' },
   { id: 'g4', image: '/collections/gallery-04.jpg' },
   { id: 'g5', image: '/collections/gallery-05.jpg' },
-  { id: 'g6', image: '/collections/gallery-06.jpg' },
 ];

@@ -8,7 +8,7 @@ import {
   galleryImages,
 } from '../data/collection';
 
-const PER_PAGE = 2;
+const PER_PAGE = 1;
 
 const Collections: React.FC = () => {
   const { t, language } = useLanguage();
@@ -28,24 +28,24 @@ const Collections: React.FC = () => {
         <p className="font-serif text-gray-500 italic max-w-xl">{pick(collectionIntro.subtitle)}</p>
       </header>
 
-      {/* Two pieces per page, navigated with arrows */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start min-h-[60vh]">
+      {/* One piece per page, navigated with arrows */}
+      <div className="min-h-[62vh]">
         {visible.map((item, i) => (
-          <div key={item.id} className="fade-in">
-            <div className="w-full mb-6">
+          <div key={item.id} className="fade-in flex flex-col items-center text-center">
+            <div className="w-full max-w-3xl mb-8">
               <img
                 src={item.image}
                 alt={pick(item.title)}
-                className="w-full h-auto object-contain rounded-sm shadow-sm"
+                className="w-full h-auto object-contain"
               />
             </div>
             <span className="text-xs font-sans tracking-[0.3em] text-gray-400 uppercase">
               {`N° ${String(start + i + 1).padStart(2, '0')}`}
             </span>
-            <h2 className="text-2xl font-serif text-ink-black mt-3 mb-3 leading-snug">{pick(item.title)}</h2>
+            <h2 className="text-3xl font-serif text-ink-black mt-3 mb-3 leading-snug">{pick(item.title)}</h2>
             <p className="text-sm font-sans tracking-wide text-gray-500 mb-3">{pick(item.spec)}</p>
             {item.note && (
-              <p className="font-serif text-[15px] text-gray-600 leading-relaxed">{pick(item.note)}</p>
+              <p className="font-serif text-[15px] text-gray-600 leading-relaxed max-w-xl">{pick(item.note)}</p>
             )}
           </div>
         ))}
