@@ -8,13 +8,30 @@ export interface Article {
   tags: string[];
 }
 
+export interface LocalizedText {
+  en: string;
+  zh: string;
+}
+
+export interface ProjectLink {
+  url: string;
+  displayUrl: string;
+}
+
+export interface ProjectCategory {
+  id: string;
+  label: LocalizedText;
+}
+
 export interface AIProject {
   id: string;
   name: string;
-  url: string;
-  displayUrl: string;
+  category: string;
+  links: ProjectLink[];
   role: string;
-  description: string;
+  status: 'live';
+  badges?: LocalizedText[];
+  description: LocalizedText;
 }
 
 export interface CollectionItem {
