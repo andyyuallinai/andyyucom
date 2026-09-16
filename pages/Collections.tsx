@@ -55,7 +55,7 @@ const Collections: React.FC = () => {
             {`N° ${String(index + 1).padStart(2, '0')} — ${String(count).padStart(2, '0')}`}
           </span>
           <h2 className="text-3xl font-serif text-ink-black mt-3 mb-3 leading-snug">{pick(item.title)}</h2>
-          <p className="text-sm font-sans tracking-wide text-gray-500 mb-3">{pick(item.spec)}</p>
+          <p className="font-serif italic text-gray-500 mb-3">{pick(item.spec)}</p>
           {item.note && (
             <p className="font-serif text-[15px] text-gray-600 leading-relaxed max-w-xl">{pick(item.note)}</p>
           )}
