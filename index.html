@@ -51,6 +51,12 @@
       .fade-in {
         animation: fadeIn 0.8s ease-in-out;
       }
+      @keyframes floatY {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-14px); }
+      }
+      .float-slow { animation: floatY 6s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { .float-slow { animation: none; } }
       /* Chinese font stacks matching globalcrisisindex.co.uk (Songti serif / PingFang sans).
          English keeps the site's own fonts untouched. */
       html[data-lang="zh"] body,
